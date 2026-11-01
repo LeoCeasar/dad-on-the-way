@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="从孕期到青少年的养育资料库。阅读孕期产检图解、陪伴与胎教方法，以及分阶段执行计划。">
+  <title>从孕期到青少年的养育资料库</title>
+  <style>
+    :root{--paper:#f7f5ef;--ink:#263d35;--green:#25634e;--soft:#e4ebdf;--line:#cdd8cc;--muted:#53695c}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.8 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC",sans-serif}
+    a{color:var(--green);text-underline-offset:5px}
+    a:hover{color:#954a35}
+    a:focus-visible{outline:3px solid #af653c;outline-offset:6px}
+    .wrap{width:min(960px,calc(100% - 40px));margin:auto}
+    header{padding:22px 0;border-bottom:1px solid var(--line)}
+    header .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px}
+    header a{font-size:14px}
+    .brand{font-weight:700}
+    .hero{padding:64px 0 40px;max-width:720px}
+    h1{font:600 clamp(32px,5.5vw,52px)/1.4 "Noto Serif CJK SC","Songti SC",SimSun,serif;letter-spacing:.02em;margin:0 0 22px}
+    .hero p{font-size:18px;max-width:620px;margin:0;color:var(--muted)}
+    h2{font-size:22px;margin:0}
+    .intro{display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:2px solid var(--green);padding-bottom:16px}
+    .intro p{font-size:14px;color:var(--muted);margin:0}
+    .guides{list-style:none;padding:0;margin:0}
+    .guides li{border-bottom:1px solid var(--line)}
+    .guide{display:grid;grid-template-columns:72px 1fr;gap:22px;align-items:start;padding:28px 12px;text-decoration:none;color:var(--ink)}
+    .guide:hover{background:var(--soft);color:var(--ink)}
+    .number{font:32px/1.4 Georgia,serif;color:var(--green)}
+    h3{font-size:21px;line-height:1.5;margin:0 0 8px}
+    .guide p{color:var(--muted);margin:0;font-size:15px}
+    .read{display:inline-block;margin-top:12px;color:var(--green);text-decoration:underline;text-underline-offset:5px;font-size:14px}
+    .note{margin:32px 0 48px;padding:18px 22px;border-left:3px solid var(--green);background:var(--soft);font-size:14px}
+    .note p{margin:0}
+    footer{padding:24px 0 32px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+    footer p{margin:0 0 8px}
+    footer a{margin-right:20px}
+    @media(max-width:600px){.hero{padding:38px 0 32px}.hero p{font-size:16px}.intro{display:block}.intro p{margin-top:8px}.guide{grid-template-columns:45px 1fr;gap:12px;padding:24px 0}.number{font-size:26px}h3{font-size:19px}header .wrap{align-items:start}.brand{max-width:180px}.note{padding:16px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <span class="brand">养育资料库</span>
+      <a href="https://github.com/LeoCeasar/dad-on-the-way">查看项目与来源</a>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="hero">
+      <h1>从孕期到青少年，<br>陪伴每一个成长阶段。</h1>
+      <p>把检查、陪伴与日常安排整理成可以随时查阅的手册。当前开放孕期专题，从眼下需要的内容开始读。</p>
+    </div>
+    <section aria-labelledby="pregnancy">
+      <div class="intro">
+        <h2 id="pregnancy">孕期阅读</h2>
+        <p>建议顺序：了解检查、理解方法、安排日常。</p>
+      </div>
+      <ol class="guides">
+        <li>
+          <a class="guide" href="0a.孕期产检规划与指标解读.html">
+            <span class="number" aria-hidden="true">0a</span>
+            <div><h3>孕期产检规划与指标解读</h3><p>查看孕周检查窗口、报告指标与就诊准备，区分日常血糖目标和糖耐诊断界值。</p><span class="read">阅读产检图解</span></div>
+          </a>
+        </li>
+        <li>
+          <a class="guide" href="0b.孕期陪伴与胎教方法.html">
+            <span class="number" aria-hidden="true">0b</span>
+            <div><h3>孕期陪伴与胎教方法</h3><p>理解陪伴活动、概念与证据的适用范围，查看家庭分工、活动方法和条件适配。</p><span class="read">阅读方法与依据</span></div>
+          </a>
+        </li>
+        <li>
+          <a class="guide" href="0c.孕期陪伴与胎教执行计划.html">
+            <span class="number" aria-hidden="true">0c</span>
+            <div><h3>孕期陪伴与胎教执行计划</h3><p>按当前孕周查看阶段甘特图、一周安排示例、音乐与语言材料，以及减量方法。</p><span class="read">查看阶段与日常安排</span></div>
+          </a>
+        </li>
+      </ol>
+    </section>
+    <aside class="note" aria-label="阅读说明"><p>这些文档用于学习和就诊沟通，具体检查与健康安排以个人医嘱为准。来源、核验日期与适用条件保留在各篇正文中。</p></aside>
+  </main>
+  <footer>
+    <div class="wrap">
+      <p>当前已发布 3 份孕期手册。后续阶段将随内容整理逐步补充。</p>
+      <a href="https://github.com/LeoCeasar/dad-on-the-way#readme">项目说明</a>
+      <a href="https://github.com/LeoCeasar/dad-on-the-way/blob/main/docs/source-map.md">文档与来源索引</a>
+    </div>
+  </footer>
+</body>
+</html>

@@ -2,6 +2,8 @@
 
 ## 公开文档入口
 
+**[在线阅读首页](https://leoceasar.github.io/dad-on-the-way/)**：直接在浏览器阅读下列HTML手册，保留页面样式和交互。GitHub Pages从`main`分支根目录自动发布；更新文件并推送后，等待部署完成即可看到新版本。
+
 根目录保存对外阅读文档，使用“阶段数字＋字母.中文主题.html”命名。字母表示阶段内的阅读顺序；版本和核验日期写在正文中。
 
 | 编号 | 已发布文档 | 用途 |
@@ -348,7 +350,9 @@ git clone --recurse-submodules https://github.com/LeoCeasar/dad-on-the-way.git
 cd dad-on-the-way
 ```
 
-如果已克隆主仓库，再运行`git submodule update --init --recursive`。仅下载主仓库ZIP不会包含第三方子模块正文；3份公开HTML本身仍可离线阅读。当前不启用GitHub Pages。
+如果已克隆主仓库，再运行`git submodule update --init --recursive`。仅下载主仓库ZIP不会包含第三方子模块正文；3份公开HTML本身仍可离线阅读，也可通过[GitHub Pages](https://leoceasar.github.io/dad-on-the-way/)在线阅读。
+
+GitHub Pages发布源为`main`分支的`/ (root)`，根目录`index.html`提供阅读导航，`.nojekyll`使现有静态文件直接发布。后续新增公开HTML时，同时更新首页、README和文档来源索引。部署状态可在仓库[Actions](https://github.com/LeoCeasar/dad-on-the-way/actions)查看。
 
 需要更新某个仓库时，先查看本地修改，再获取远端变化和差异，最后快进更新：
 

@@ -35,6 +35,8 @@
 ```text
 pregnant/
 ├── README.md                   # 已发布文档导航、项目说明与阶段规划
+├── index.html                  # GitHub Pages阅读首页
+├── .nojekyll                   # 直接发布静态文件
 ├── 0a.孕期产检规划与指标解读.html
 ├── 0b.孕期陪伴与胎教方法.html
 ├── 0c.孕期陪伴与胎教执行计划.html
@@ -51,7 +53,7 @@ pregnant/
 └── thrid_party/                # 第三方Git子模块、说明与版本锁定，沿用原拼写
 ```
 
-根目录的README是当前入口。`index.html`作为未来可视化首页的预留名称，本次不创建。HTML继续保持现有离线阅读方式；仅目录整理不引入远程运行依赖。
+根目录的README提供项目说明，`index.html`提供在线阅读首页。GitHub Pages从`main`分支根目录自动发布，`.nojekyll`关闭Jekyll处理；现有HTML的样式和脚本直接发布。HTML继续支持离线阅读，在线入口为`https://leoceasar.github.io/dad-on-the-way/`。
 
 ## 当前发布与迁移对应
 
@@ -82,7 +84,7 @@ pregnant/
 
 ## 维护要求
 
-新增文档时先选阶段和未用编号，再确定正文范围。发布时同步README与[source-map](source-map.md)，记录来源、核验日期和适用限制。共用的医学规则优先链接主说明，避免各文档维护不同数值。
+新增文档时先选阶段和未用编号，再确定正文范围。发布时同步`index.html`、README与[source-map](source-map.md)，记录来源、核验日期和适用限制。共用的医学规则优先链接主说明，避免各文档维护不同数值。
 
 移动或更名后检查全部项目自有HTML和Markdown的相对链接、图片、页内索引及外部来源地址。第三方仓库不参与批量改写。历史审核记录仍标注原审核版本，目录迁移不伪装成重新完成医学核验。
 
