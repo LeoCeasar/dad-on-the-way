@@ -1,0 +1,21 @@
+[submodule "thrid_party/Pregnancy-Knowledge"]
+	path = thrid_party/Pregnancy-Knowledge
+	url = https://github.com/Qianli-Ma/Pregnancy-Knowledge.git
+[submodule "thrid_party/hands-on-dad"]
+	path = thrid_party/hands-on-dad
+	url = https://github.com/pxiuqin/hands-on-dad.git
+[submodule "thrid_party/learn-pregnancy"]
+	path = thrid_party/learn-pregnancy
+	url = https://github.com/zhangluustb/learn-pregnancy.git
+[submodule "thrid_party/BloomTalk"]
+	path = thrid_party/BloomTalk
+	url = https://github.com/zhiyuzi/BloomTalk.git
+[submodule "thrid_party/LittleSteps"]
+	path = thrid_party/LittleSteps
+	url = https://github.com/sean1093/LittleSteps.git
+[submodule "thrid_party/awesome-parenting"]
+	path = thrid_party/awesome-parenting
+	url = https://github.com/davidpelayo/awesome-parenting.git
+[submodule "thrid_party/HowToLiveBetter"]
+	path = thrid_party/HowToLiveBetter
+	url = https://github.com/eternity4719/HowToLiveBetter.git

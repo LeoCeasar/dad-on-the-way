@@ -1,0 +1,17 @@
+# Local operating-system files
+.DS_Store
+Thumbs.db
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and temporary files
+.idea/
+.vscode/
+*.swp
+*.tmp
+__pycache__/

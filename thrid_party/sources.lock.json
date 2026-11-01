@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-01",
+  "timezone": "Asia/Shanghai",
+  "clone_mode": "git clone --depth 1 (default branch, full tracked working tree; no submodule recursion or external link mirroring)",
+  "scope": "Repository identity, local content and license-file inspection; not a clinical evidence review or app runtime verification.",
+  "repositories": [
+    {
+      "name": "Pregnancy-Knowledge",
+      "path": "thrid_party/Pregnancy-Knowledge",
+      "repository": "https://github.com/Qianli-Ma/Pregnancy-Knowledge",
+      "origin": "https://github.com/Qianli-Ma/Pregnancy-Knowledge.git",
+      "branch": "main",
+      "commit": "44f73fde4f71e83639f161f1ca5a69198b458d4c",
+      "committed_at": "2025-06-04T00:38:42+08:00",
+      "shallow": true,
+      "tracked_files": 54,
+      "tracked_bytes": 24002771,
+      "license_observation": "GPL-3.0",
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "hands-on-dad",
+      "path": "thrid_party/hands-on-dad",
+      "repository": "https://github.com/pxiuqin/hands-on-dad",
+      "origin": "https://github.com/pxiuqin/hands-on-dad.git",
+      "branch": "main",
+      "commit": "7b8b5c8ebed0b9c5e5ded50da09d8f9ec0aede58",
+      "committed_at": "2026-02-28T10:08:40+08:00",
+      "shallow": true,
+      "tracked_files": 14,
+      "tracked_bytes": 3891487,
+      "license_observation": "NO_LICENSE_FILE_FOUND",
+      "license_files": []
+    },
+    {
+      "name": "learn-pregnancy",
+      "path": "thrid_party/learn-pregnancy",
+      "repository": "https://github.com/zhangluustb/learn-pregnancy",
+      "origin": "https://github.com/zhangluustb/learn-pregnancy.git",
+      "branch": "main",
+      "commit": "407eb6a40410389e1eb5024e54e35b60cbe93b99",
+      "committed_at": "2026-05-15T20:47:14+08:00",
+      "shallow": true,
+      "tracked_files": 67,
+      "tracked_bytes": 616328,
+      "license_observation": "MIT",
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "BloomTalk",
+      "path": "thrid_party/BloomTalk",
+      "repository": "https://github.com/zhiyuzi/BloomTalk",
+      "origin": "https://github.com/zhiyuzi/BloomTalk.git",
+      "branch": "main",
+      "commit": "7349937c8a463e4734a032bb60e3815928687f08",
+      "committed_at": "2026-04-05T18:06:59+08:00",
+      "shallow": true,
+      "tracked_files": 39,
+      "tracked_bytes": 97103,
+      "license_observation": "MIT",
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "LittleSteps",
+      "path": "thrid_party/LittleSteps",
+      "repository": "https://github.com/sean1093/LittleSteps",
+      "origin": "https://github.com/sean1093/LittleSteps.git",
+      "branch": "master",
+      "commit": "38edae19a38b53b4016b84b2c66c061af60cf861",
+      "committed_at": "2026-10-19T11:39:52+08:00",
+      "shallow": true,
+      "tracked_files": 435,
+      "tracked_bytes": 5984814,
+      "license_observation": "README_CLAIMS_MIT_NO_LICENSE_FILE_FOUND",
+      "license_files": []
+    },
+    {
+      "name": "awesome-parenting",
+      "path": "thrid_party/awesome-parenting",
+      "repository": "https://github.com/davidpelayo/awesome-parenting",
+      "origin": "https://github.com/davidpelayo/awesome-parenting.git",
+      "branch": "master",
+      "commit": "1998d859dde650addba27d15d5618d8b454748b3",
+      "committed_at": "2026-07-31T15:41:46+02:00",
+      "shallow": true,
+      "tracked_files": 9,
+      "tracked_bytes": 85021,
+      "license_observation": "MIT",
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "HowToLiveBetter",
+      "path": "thrid_party/HowToLiveBetter",
+      "repository": "https://github.com/eternity4719/HowToLiveBetter",
+      "origin": "https://github.com/eternity4719/HowToLiveBetter.git",
+      "branch": "main",
+      "commit": "e2605d3e2242bd6216c9255192b8a8957a08c55a",
+      "committed_at": "2026-10-21T15:18:00+08:00",
+      "shallow": true,
+      "tracked_files": 331,
+      "tracked_bytes": 6351357,
+      "license_observation": "CC-BY-4.0 for prose; MIT for code",
+      "license_files": [
+        "LICENSE",
+        "LICENSE-CODE"
+      ]
+    }
+  ]
+}
